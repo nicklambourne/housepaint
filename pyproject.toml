@@ -2,8 +2,17 @@
 name = "housepaint"
 version = "0.0.1"
 description = "Colour all the output!"
-authors = ["Your Name <you@example.com>"]
+authors = ["Nicholas Lambourne <nick@ndl.im>"]
 license = "BSD-3-Clause"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/nicklambourne/housepaint"
+documentation = "https://github.com/nicklambourne/housepaint"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
