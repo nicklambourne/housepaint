@@ -5,9 +5,12 @@ from housepaint import (
     BG,
     FG,
     paint,
-    Style
+    Style,
 )
-from housepaint.premixed import wild
+from housepaint.premixed import (
+    success,
+    wild,
+)
 
 
 SUCCESS_EXPECTED = """This
@@ -25,6 +28,14 @@ Henrique Medina
 
 
 class TestHousePaint:
+    def test_print(self):
+        @success()
+        def basic():
+            print("Hello")
+            print("World")
+
+        basic()
+
     def test_paint(self, capsys: Generator[CaptureFixture[str], None, None]) -> None:
         @paint(foreground=FG.GREEN, background=BG.BLACK, styles=Style.BOLD)
         def success_example() -> None:
