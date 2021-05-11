@@ -1,6 +1,6 @@
 # Controls when the action will run.
 
-name: Publish
+name: Publish to Production PyPI
 
 on:
   push:
