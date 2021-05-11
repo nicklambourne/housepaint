@@ -5,7 +5,7 @@ name: Publish to Test PyPI
 on:
   push:
     tags:
-      - 'v*.*.*-test'
+      - 'tv*.*.*'
 
 jobs:
   build:
