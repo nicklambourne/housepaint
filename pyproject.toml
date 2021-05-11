@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "housepaint"
-version = "0.0.5"
+version = "0.0.10"
 description = "Colour all the output!"
 authors = ["Nicholas Lambourne <nick@ndl.im>"]
 license = "BSD-3-Clause"
