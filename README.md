@@ -1,6 +1,6 @@
 # housepaint
 
-![logo](https://github.com/nicklambourne/housepaint/raw/master/docs/img/logo.png)
+<img src="https://github.com/nicklambourne/housepaint/raw/master/docs/img/logo.png" align="center" width="250px"/>
 
 ## What is it?
 `housepaint` is a demonstration library for a talk on publishing Python packages. A silly little thing with limited 
